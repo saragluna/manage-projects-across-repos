@@ -25,6 +25,6 @@ jobs:
         uses: EndBug/label-sync@v2.1.0
         with:
           # The repo to copy labels from (if not using a config file), in the 'owner/repo' format
-          source-repo: Azure/azure-sdk-for-java false
+          source-repo: Azure/azure-sdk-for-java
           # Whether to only display the changes, without making them (useful if you're worried you're going to mess up)
           dry-run: true
