@@ -17,7 +17,7 @@ jobs:
         # URL of the project to add issues to
         project-url: https://github.com/orgs/Azure/projects/94
         # A GitHub personal access token with write access to the project
-        github-token: ${secrets.PERSONAL_TOKEN}
+        github-token: ${{ secrets.PERSONAL_TOKEN }}
       
       
     
