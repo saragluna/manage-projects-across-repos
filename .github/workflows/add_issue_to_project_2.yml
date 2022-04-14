@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Add Issue to project #2
+name: Add Issue to project 2
 
 on:
   issues:
@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name : Echo issue
+        run: echo ${{ github.event.issue }}
       - name: Get project data
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
