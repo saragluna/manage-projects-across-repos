@@ -29,5 +29,4 @@ jobs:
         with:
           config-file: ./labels.json
           # Whether to only display the changes, without making them (useful if you're worried you're going to mess up)
-          dry-run: false
-          delete-other-labels: true
+          dry-run: true
